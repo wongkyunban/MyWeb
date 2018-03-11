@@ -1,0 +1,142 @@
+
+body {
+    min-width: 1200px;
+    height: 100%;
+    background-color: #fff;
+    font-family: arial,verdana,helvetica,PingFang SC,HanHei SC,STHeitiSC-Light,Microsoft Yahei,sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    color: #414a60;
+    -webkit-font-smoothing: antialiased;
+}
+b, body, button, dd, div, dl, em, footer, form, h1, h2, h3, h4, h5, h6, i, input, label, li, nav, p, select, span, td, textarea, u, ul {
+    padding: 0;
+    margin: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+#main {
+    padding-top: 54px;
+}
+#container {
+    position: relative;
+}
+
+div {
+    display: block;
+}
+.job-box {
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.resume{
+        min-width: 714px;
+        height: max-content;
+        padding: 28px 0 0;
+        background-color: #fff;
+    }
+
+.resume-item {
+    position: relative;
+    padding: 0 38px;
+}
+.item-primary {
+    position: relative;
+}
+.item-form {
+    display: none;
+}
+.resume-item .name {
+    font-weight: 400;
+}
+.info-labels {
+    padding: 20px 0;
+}
+.item-form {
+    display: none;
+}
+p, select, span, td, textarea, u, ul {
+    padding: 0;
+    margin: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.row-contact {
+    margin-top: 15px;
+}
+
+a, b, body, button, dd, div, dl, em, footer, form, h1, h2, h3, h4, h5, h6, i, input, label, li, nav, p, select, span, td, textarea, u, ul {
+    padding: 0;
+    margin: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+.info-labels .label-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+.resume-item .info-labels .vline {
+    margin: 0 20px;
+}
+
+.vline {
+    display: inline-block;
+    border-left: 1px solid #e0e0e0;
+    height: 13px;
+    margin: 0 30px;
+    vertical-align: middle;
+}
+.info-labels .label-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.span-wechat {
+    width: 250px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.fz-weixin {
+    background-position: -28px -586px;
+}
+
+.fz-male {
+    background-position: -24px 0;
+    vertical-align: top;
+}
+
+
+
+
+a, b, body, button, dd, div, dl, em, footer, form, h1, h2, h3, h4, h5, h6, i, input, label, li, nav, p, select, span, td, textarea, u, ul {
+    padding: 0;
+    margin: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
