@@ -15,7 +15,7 @@
 %>
 <html>
 <head>
-    <title>友情链接</title>
+    <title>山楂干创意收纳盒</title>
 
     <link href="<%=basePath %>/css/index.css" rel="stylesheet" type="text/css" />
 
@@ -41,7 +41,7 @@
 
     <div class="index-banner-container">
 
-        <div style="font-size: 28px;color:white;font-weight: bold;margin-top: 28px">正在建设中，如有需要请email:wongkyunban@sina.com</div>
+        <div style="font-size: 28px;color:white;font-weight: bold;margin-top: 28px">创意收纳盒正在建设中，如有需要请email:wongkyunban@sina.com</div>
 
         <div class="index-slide">
 
@@ -92,4 +92,5 @@
 </div>
 </body>
 </html>
+
 

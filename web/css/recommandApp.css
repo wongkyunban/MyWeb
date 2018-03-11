@@ -8,7 +8,7 @@ body {
     height: auto;
 }
 
-a, abbr, acronym acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, videott, u, ul, var, video {
+a, abbr, acronym acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, u, ul, var, video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -42,8 +42,8 @@ ul, menu, dir {
     list-style-type: disc;
     -webkit-margin-before: 1em;
     -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
     -webkit-padding-start: 40px;
 }
 ul, ol {
@@ -54,8 +54,6 @@ ul, ol {
     width: 96%;
     width: 298px\9;
     margin: 0 2% 2% 2%;
-    margin: 0 10px 20px 12px\9;
-    _margin: 0 12px 20px 6px;
     position: relative;
     box-shadow: 0 1px 2px #d6d6d6;
     border-bottom: 1px solid #d4d4d4;
@@ -88,9 +86,9 @@ div {
     bottom: 0;
     right: 0;
     display: inline-block;
-    height: 22px;
-    width: 76px;
-    line-height: 24px;
+    height: 66px;
+    width: 66px;
+    line-height: 50px;
     font-size: 0.75em;
     text-align: center;
     color: #999;
@@ -114,8 +112,8 @@ h2 {
     font-size: 1.5em;
     -webkit-margin-before: 0.83em;
     -webkit-margin-after: 0.83em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
     font-weight: bold;
 }
 .card .app-desc .name {
@@ -180,19 +178,7 @@ h2 {
     line-height: 20px;
     overflow: hidden;
 }
-.card .tag-link {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    display: inline-block;
-    height: 22px;
-    width: 76px;
-    line-height: 24px;
-    font-size: 0.75em;
-    text-align: center;
-    color: #999;
-    background: #ebebeb;
-}
+
 .install-btn {
     letter-spacing: 1px;
     font-size: 0.875em;

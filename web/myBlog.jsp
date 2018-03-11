@@ -6,7 +6,7 @@
   Time: 下午9:56
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" %>
+<%@ page contentType="text/html;charset=UTF-8"  %>
 
 <%
     String path = request.getContextPath();
@@ -15,7 +15,7 @@
 %>
 <html>
 <head>
-    <title>友情链接</title>
+    <title>我的博客</title>
 
     <link href="<%=basePath %>/css/index.css" rel="stylesheet" type="text/css" />
 
@@ -41,7 +41,7 @@
 
     <div class="index-banner-container">
 
-        <div style="font-size: 28px;color:white;font-weight: bold;margin-top: 28px">正在建设中，如有需要请email:wongkyunban@sina.com</div>
+        <div style="font-size: 28px;color:white;font-weight: bold;margin-top: 28px">我的博客正在建设中，如有需要请email:wongkyunban@sina.com</div>
 
         <div class="index-slide">
 
@@ -92,4 +92,6 @@
 </div>
 </body>
 </html>
+
+
 
