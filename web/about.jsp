@@ -1,19 +1,25 @@
-<%--
+<%@ page import="com.wong123.Dev" %><%--
   Created by IntelliJ IDEA.
   User: wong
   Date: 18-3-3
   Time: 下午5:02
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" %>
 <%
     String path = request.getContextPath();
-    String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
-%>
+    String basePath;
+    if(Dev.dev){
+        basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+
+    }else{
+        basePath = request.getScheme()+"://www."+request.getServerName()+":"+request.getServerPort()+path+"/";
+
+    }%>
 <html>
 <head>
     <title>Title</title>
-    <link href="<%=basePath %>/css/about.css" rel="stylesheet" type="text/css" />
+    <link href="<%=basePath %>css/about.css" rel="stylesheet" type="text/css" />
 
 
 </head>
@@ -245,7 +251,7 @@
                          pdf.addImage(pageData, 'JPEG', 20, 0, imgWidth, imgHeight );
                      } else {
                          while(leftHeight > 0) {
-                             pdf.addImage(pageData, 'JPEG', 20, position, imgWidth, imgHeight)
+                             pdf.addImage(pageData, 'JPEG', 20, position, imgWidth, imgHeight);
                              leftHeight -= pageHeight;
                              position -= 841.89;
                              //避免添加空白页

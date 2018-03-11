@@ -1,4 +1,4 @@
-<%--
+<%@ page import="com.wong123.Dev" %><%--
   Created by IntelliJ IDEA.
   User: wong
   Date: 18-3-2
@@ -8,25 +8,31 @@
 <%@ page contentType="text/html;charset=UTF-8"%>
 <%
     String path = request.getContextPath();
-    String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
-%>
+    String basePath;
+    if(Dev.dev){
+        basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+
+    }else{
+        basePath = request.getScheme()+"://www."+request.getServerName()+":"+request.getServerPort()+path+"/";
+
+    }%>
 <html>
 <head>
     <title>Title</title>
-    <link href="<%=basePath %>/css/recommandApp.css" rel="stylesheet" type="text/css" />
+    <link href="<%=basePath %>css/recommandApp.css" rel="stylesheet" type="text/css" />
 
 </head>
-<body data-page="apps" class="apps PC wdj-web-view wdj-web-view-apps log-param-f">
+<body class="apps PC wdj-web-view wdj-web-view-apps log-param-f">
 <div class="container">
     <div class="app-box">
         <span class="block-title">好生活从此开始</span>
         <ul id="j-wc-rect" class="wc-rect clearfix log-param-f" >
 
-            <li data-pn="com.taobao.taobao" class="card" data-suffix="">
+            <li class="card">
                 <div class="icon-wrap">
                     <a href="<%=basePath%>apk/01/号码归属地.apk">
 
-                        <img src="<%=basePath%>/img/guishudi.png" style="width:68px;height:68px;" alt="号码归属地" class="icon">
+                        <img src="<%=basePath%>img/guishudi.png" style="width:68px;height:68px;" alt="号码归属地" class="icon">
 
                     </a>
                 </div>

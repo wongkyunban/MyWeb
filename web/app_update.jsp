@@ -1,4 +1,5 @@
-<%@ page import="java.util.UUID" %><%--
+<%@ page import="java.util.UUID" %>
+<%@ page import="com.wong123.Dev" %><%--
   Created by IntelliJ IDEA.
   User: wong
   Date: 18-3-1
@@ -8,14 +9,20 @@
 <%@ page contentType="text/html;charset=UTF-8"%>
 <%
     String path = request.getContextPath();
-    String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
-    String uuid= UUID.randomUUID().toString();
+    String basePath;
+    if(Dev.dev){
+        basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+
+    }else{
+        basePath = request.getScheme()+"://www."+request.getServerName()+":"+request.getServerPort()+path+"/";
+
+    }    String uuid= UUID.randomUUID().toString();
 %>
 <html>
 <head>
     <title>山楂干应用市场更新记录</title>
 
-    <link href="<%=basePath %>/css/index.css" rel="stylesheet" type="text/css" />
+    <link href="<%=basePath %>css/index.css" rel="stylesheet" type="text/css" />
 
     <link rel="icon" href="<%=basePath%>img/icon.ico" type="image/x-icon">
 </head>
