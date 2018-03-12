@@ -8,14 +8,8 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
 <%
     String path = request.getContextPath();
-    String basePath;
-    if(Dev.dev){
-        basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
-
-    }else{
-        basePath = request.getScheme()+"://www."+request.getServerName()+":"+request.getServerPort()+path+"/";
-
-    }%>
+    String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
 <html>
 <head>
     <title>Title</title>

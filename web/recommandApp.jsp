@@ -24,7 +24,7 @@
 
             <li class="card">
                 <div class="icon-wrap">
-                    <a href="<%=basePath%>apk/01/号码归属地.apk">
+                    <a href="<%=basePath%>apk/01/guishudi.apk">
 
                         <img src="<%=basePath%>img/guishudi.png" style="width:68px;height:68px;" alt="号码归属地" class="icon">
 
@@ -32,7 +32,7 @@
                 </div>
                 <div class="app-desc">
                     <h2 class="app-title-h2">
-                        <a href="<%=basePath%>apk/01/号码归属地.apk" title="号码归属地" class="name">号码归属地</a>
+                        <a href="<%=basePath%>apk/01/guishudi.apk" title="号码归属地" class="name">号码归属地</a>
                     </h2>
                     <div class="meta">
                         <span class="install-count">1人安装</span>
@@ -52,7 +52,7 @@
                <!-- <a class="tag-link" href="">生活工具</a>-->
                 <div class="tag-link"><img src="<%=basePath%>img/guishudi_qr.png" style="height: 66px;width: 66px;"/></div>
 
-                <a class="i-source install-btn" rel="nofollow" href="<%=basePath%>apk/01/号码归属地.apk" >
+                <a class="i-source install-btn" rel="nofollow" href="<%=basePath%>apk/01/guishudi.apk" >
 
                     下载
 

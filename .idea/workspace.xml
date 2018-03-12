@@ -8,13 +8,17 @@
   <component name="ChangeListManager">
     <list default="true" id="86aa1187-362e-47c5-bdf6-c31f292c8aba" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/web/about.jsp" afterPath="$PROJECT_DIR$/web/about.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/app_market.jsp" afterPath="$PROJECT_DIR$/web/app_market.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/app_update.jsp" afterPath="$PROJECT_DIR$/web/app_update.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/idea_market.jsp" afterPath="$PROJECT_DIR$/web/idea_market.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/links.jsp" afterPath="$PROJECT_DIR$/web/links.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/myBlog.jsp" afterPath="$PROJECT_DIR$/web/myBlog.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyWeb_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/MyWeb_war_exploded/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyWeb_war_exploded/about.jsp" afterPath="$PROJECT_DIR$/out/artifacts/MyWeb_war_exploded/about.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyWeb_war_exploded/app_market.jsp" afterPath="$PROJECT_DIR$/out/artifacts/MyWeb_war_exploded/app_market.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyWeb_war_exploded/app_update.jsp" afterPath="$PROJECT_DIR$/out/artifacts/MyWeb_war_exploded/app_update.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyWeb_war_exploded/idea_market.jsp" afterPath="$PROJECT_DIR$/out/artifacts/MyWeb_war_exploded/idea_market.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyWeb_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/MyWeb_war_exploded/index.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyWeb_war_exploded/links.jsp" afterPath="$PROJECT_DIR$/out/artifacts/MyWeb_war_exploded/links.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyWeb_war_exploded/myBlog.jsp" afterPath="$PROJECT_DIR$/out/artifacts/MyWeb_war_exploded/myBlog.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyWeb_war_exploded/recommandApp.jsp" afterPath="$PROJECT_DIR$/out/artifacts/MyWeb_war_exploded/recommandApp.jsp" />
+      <change beforePath="$PROJECT_DIR$/web/apk/01/号码归属地.apk" afterPath="$PROJECT_DIR$/web/apk/01/guishudi.apk" />
+      <change beforePath="$PROJECT_DIR$/web/img/guishudi_qr.png" afterPath="$PROJECT_DIR$/web/img/guishudi_qr.png" />
       <change beforePath="$PROJECT_DIR$/web/recommandApp.jsp" afterPath="$PROJECT_DIR$/web/recommandApp.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -43,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/web/about.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="324">
-              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+              <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -53,7 +57,7 @@
         <entry file="file://$PROJECT_DIR$/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+              <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -63,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/META-INF/context.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -102,8 +106,8 @@
       <file leaf-file-name="recommandApp.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/recommandApp.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="140">
+              <caret line="26" column="57" lean-forward="false" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -153,7 +157,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>op</find>
       <find>.resume .update-time</find>
       <find>编辑</find>
       <find>container</find>
@@ -183,6 +186,7 @@
       <find>data-</find>
       <find>&lt;%=basePath</find>
       <find>&lt;%=basePath %&gt;</find>
+      <find>号码归属地</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -307,14 +311,20 @@
             <path>
               <item name="MyWeb" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="MyWeb_war" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyWeb" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyWeb" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="apk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="apk" type="462c0819:PsiDirectoryNode" />
+              <item name="01" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyWeb" type="b2602c69:ProjectViewProjectNode" />
@@ -612,7 +622,7 @@
       <workItem from="1520770632333" duration="8693000" />
       <workItem from="1520787098193" duration="5381000" />
       <workItem from="1520818707379" duration="4933000" />
-      <workItem from="1520826096743" duration="4901000" />
+      <workItem from="1520826096743" duration="6007000" />
     </task>
     <task id="LOCAL-00001" summary="第一次完善页面。">
       <created>1520782747776</created>
@@ -656,11 +666,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520830275675</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="第二次完善页面。">
+      <created>1520866017179</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1520866017179</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68173000" />
+    <option name="totallyTimeSpent" value="69279000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="44" y="90" width="975" height="743" extended-state="6" />
@@ -1011,7 +1028,7 @@
     <entry file="file://$PROJECT_DIR$/META-INF/context.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1019,7 +1036,7 @@
     <entry file="file://$PROJECT_DIR$/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -1027,7 +1044,7 @@
     <entry file="file://$PROJECT_DIR$/web/about.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
-          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -1082,8 +1099,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/recommandApp.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="140">
+          <caret line="26" column="57" lean-forward="false" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="57" />
           <folding />
         </state>
       </provider>
