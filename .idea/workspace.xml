@@ -6,39 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86aa1187-362e-47c5-bdf6-c31f292c8aba" name="Default" comment="第二次完善页面。">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/MyWeb_war/MyWeb_war.war" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/MyWeb_war_exploded/META-INF/context.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/MyWeb_war_exploded/WEB-INF/web.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/test/MyWeb/MyWeb_war_exploded/WEB-INF/classes/com/wong123/Dev.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/test/MyWeb/MyWeb_war_exploded/WEB-INF/classes/struts.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/test/MyWeb/MyWeb_war_exploded/WEB-INF/web.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/test/MyWeb/MyWeb_war_exploded/about.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/test/MyWeb/MyWeb_war_exploded/apk/01/号码归属地.apk" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/test/MyWeb/MyWeb_war_exploded/app_market.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/test/MyWeb/MyWeb_war_exploded/app_update.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/test/MyWeb/MyWeb_war_exploded/css/about.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/test/MyWeb/MyWeb_war_exploded/css/index.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/test/MyWeb/MyWeb_war_exploded/css/links.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/test/MyWeb/MyWeb_war_exploded/css/recommandApp.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/test/MyWeb/MyWeb_war_exploded/idea_market.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/test/MyWeb/MyWeb_war_exploded/img/.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/test/MyWeb/MyWeb_war_exploded/img/guishudi.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/test/MyWeb/MyWeb_war_exploded/img/guishudi_qr.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/test/MyWeb/MyWeb_war_exploded/img/icon.ico" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/test/MyWeb/MyWeb_war_exploded/img/logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/test/MyWeb/MyWeb_war_exploded/img/szg_qr.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/test/MyWeb/MyWeb_war_exploded/img/wave1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/test/MyWeb/MyWeb_war_exploded/img/wave2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/test/MyWeb/MyWeb_war_exploded/img/wl.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/test/MyWeb/MyWeb_war_exploded/img/wl_t.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/test/MyWeb/MyWeb_war_exploded/index.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/test/MyWeb/MyWeb_war_exploded/js/html2canvas.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/test/MyWeb/MyWeb_war_exploded/js/jsPdf.debug.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/test/MyWeb/MyWeb_war_exploded/links.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/test/MyWeb/MyWeb_war_exploded/myBlog.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/test/MyWeb/MyWeb_war_exploded/recommandApp.jsp" />
+    <list default="true" id="86aa1187-362e-47c5-bdf6-c31f292c8aba" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/WEB-INF/web.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -82,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+            <state relative-caret-position="90">
+              <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -102,7 +72,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="context.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="context.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/META-INF/context.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
@@ -635,7 +605,7 @@
       <workItem from="1520770632333" duration="8693000" />
       <workItem from="1520787098193" duration="5381000" />
       <workItem from="1520818707379" duration="4933000" />
-      <workItem from="1520826096743" duration="2662000" />
+      <workItem from="1520826096743" duration="3556000" />
     </task>
     <task id="LOCAL-00001" summary="第一次完善页面。">
       <created>1520782747776</created>
@@ -665,11 +635,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520828691305</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="第二次完善页面。">
+      <created>1520828764066</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1520828764066</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65934000" />
+    <option name="totallyTimeSpent" value="66828000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="44" y="90" width="975" height="743" extended-state="6" />
@@ -1091,14 +1068,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1111,6 +1080,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
           <folding />
         </state>
       </provider>
